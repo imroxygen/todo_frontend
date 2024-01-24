@@ -34,7 +34,7 @@ const Home = () => {
     };
 
     const deleteHandler = async (id) => {
-        toast.success(id);
+        //toast.success(id);
         try {
             const { data } = await axios.delete(`${server}/task/${id}`,
                 {
