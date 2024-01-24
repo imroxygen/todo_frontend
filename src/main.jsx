@@ -5,7 +5,7 @@ import './styles/app.scss';
 import { createContext } from 'react';
 
 
-export const server = "https://to-do-app-j9cx.onrender.com/api/v1";
+export const server = "https://todo-app-7atp.onrender.com/api/v1";
 
 export const Context = createContext({ isAuthenticated: false });
 
