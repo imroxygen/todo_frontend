@@ -2,6 +2,7 @@ import React, { useContext } from "react"
 import { Context } from "../main";
 import Loader from "../components/Loader";
 
+
 export const Profile = () => {
   const { isAuthenticated, loading, user } = useContext(Context);
 

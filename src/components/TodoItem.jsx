@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const TodoItem = ({ title, description, isCompleted, updateHandler, deleteHandler, id }) => {
     return (
         <div className='todo'>

@@ -4,6 +4,7 @@ import { Context, server } from "../main"
 import axios from "axios";
 import toast from "react-hot-toast";
 
+
 const Header = () => {
   const { isAuthenticated, setIsAuthenticated, loading, setLoading } = useContext(Context);
 
